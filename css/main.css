@@ -1,0 +1,63 @@
+/*Styling for the top of the page*/
+header{
+    background-color: #FEFAF5;
+    display:flex;
+    flex-direction: row;
+}
+.header__image{
+    width: 50%;
+    object-fit: scale-down;
+    justify-self: end;
+}
+.header__text{
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+.header__title{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.header__subtitle{
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    font-weight:300;
+    line-height: 1.4;
+}
+.button, button:visited{
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 8px 32px 8px 32px;
+    border: 1px solid #DB7A4E;
+    border-radius: 25px;
+}
+main{
+    padding:3rem;
+}
+/*Styling for the Cards*/
+.card{
+    width:300px;
+    height:450px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 4px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+}
+.card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 2rem 3rem 1rem 3rem;
+}
+.card__title{
+    font-weight:bold;
+    color: #FFF;
+    font-size: 1.8rem;
+    position: absolute;
+    transform: translate(170px,-3rem);
+}
+.card__background{
+    object-fit:fill;
+    width:300px;
+}
